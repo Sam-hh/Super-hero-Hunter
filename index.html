@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperHero Hunter | Home Page</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./sources/images/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ae2ea5b617.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./sources/css/style.css">
+</head>
+
+<body>
+    <header class="homepage-header">
+        <div class="navbar">
+            <!-- Logo -->
+            <a href="./index.html">
+                <img class="logo-image" src="./sources/images/marvel-logo.png" alt="HeroFinder Logo">
+            </a>
+            <!-- Title -->
+            <h1>SuperHero Hunter | Home Page</h1>
+            <!-- Favorites -->
+            <a href="./favourite.html">
+                <button class="btn nav-btn">
+                    <i class="fa-solid fa-heart">&nbsp; Favourites</i>
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <section class="search-section">
+        <!-- Search -->
+        <form id="search-form" class="search-form" onsubmit="return false">
+            <div class="search-box">
+                <h3>Search For Heroes!!</h3>
+                <input class="form-control search-input" type="search" placeholder="Search For Hero..."
+                    aria-label="Search" id="search-input" autocomplete="off">
+            </div>
+        </form>
+    </section>
+
+    <!-- Splash notification -->
+    <div id="splash" class="splash"></div>
+
+    <!-- Result Box -->
+    <ul class="flex-row search-results" id="search-results"></ul>
+
+    <footer class="homepage-footer">
+        <!-- Footer content goes here -->
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="./sources/scripts/script.js"></script>
+</body>
+
+</html>
