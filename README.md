@@ -29,7 +29,7 @@
 
   1. Clone the Repository: If you haven't already, clone the SuperHero Hunter repository to your local machine using the following command:
      
-              git clone https://github.com/your-username/superhero-hunter.git
+              https://github.com/Sam-hh/Super-hero-Hunter.git
 
   2. Open Visual Studio Code: Open Visual Studio Code (VS Code) on your system.
 
